@@ -23,7 +23,7 @@ jobs:
       - twilio/sendsms:
           body: Successful message from Twilio
       - twilio/alert:
-          body: Send error message
+          body: Send error message.
 workflows:
   build-and-notify:
     jobs:
