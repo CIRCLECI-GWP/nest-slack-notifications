@@ -21,9 +21,9 @@ jobs:
           mentions: '@yemiwebby'
           template: basic_fail_1
       - twilio/sendsms:
-          body: Send SMS to twilio
+          body: Successful message from Twilio
       - twilio/alert:
-          body: Send SMS for error
+          body: Send error message
 workflows:
   build-and-notify:
     jobs:
