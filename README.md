@@ -9,7 +9,7 @@
 ### 1. Clone app and install dependencies.
 
 ```bash
-# Clone repository
+# Clone the repository
 git clone https://github.com/CIRCLECI-GWP/nest-slack-notifications.git
 
 # CD into the directory
